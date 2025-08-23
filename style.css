@@ -10,11 +10,12 @@ body{
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 
 .sidebar-menu{
-    width: 340px;
-    margin: 2px;
+    width: 300px;
+    margin: 0.5rem;
 }
 
 .main-content{
@@ -48,9 +49,11 @@ a{
 }
 
 .nav-option{
-    line-height: 2.5rem;
+    line-height: 2rem;
     padding: 0.5rem 0.75rem;
     opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .nav-option:hover{
@@ -58,11 +61,97 @@ a{
 }
 
 .nav-option a{
-    font-size: 1rem;
+    
     margin-left: 1rem;
 }
 
 .nav-option i{
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
 }
 
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+}
+
+.icons{
+    display: flex;
+    width: 4rem;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.icons i{
+    opacity: 0.7;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+} 
+
+.box1{
+    background-color: #232323;
+    height: 125px;
+    margin: 0.3rem 0.7rem 1rem 0.7rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+    
+}
+
+.box2{
+    background-color: #232323;
+    height: 150px;
+    margin: 0.5rem 0.7rem 0.3rem 0.7rem;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border-radius: 0.75rem;
+}
+
+.box-p1{
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    
+}
+
+.box1 .badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.15rem 1rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    height: 2rem;
+    width: fit-content;
+    margin-top: 1.5rem;
+}
+.box2 .badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.15rem 1rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    height: 2rem;
+    width: fit-content;
+    margin-top: 0.75rem;
+}
