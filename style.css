@@ -27,14 +27,6 @@ body{
     overflow: auto;
 }
 
-.media-player{
-    background-color: #000;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-}
-
 .nav{
     background-color: #121212;
     border-radius: 1rem;
@@ -262,3 +254,66 @@ a{
 
 }
 
+.media-player{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.albums{
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    margin-left: 0.5rem;
+    /* height: 70px; */
+}
+
+.album-img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.album-singer{
+    font-size: 0.6rem;
+    opacity: 0.5;
+}
+
+.album-song{
+    font-weight: 700;
+}
+
+.album-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 4rem;
+}
+
+.album-icons1{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.album-icons2{
+    height: 2rem;
+    width: 2rem;
+}
+
+.albums p{
+    font-size: 0.8rem;
+}
+
+.player{
+    /* width: 50%; */
+}
+
+.controls{
+    /* width: 25%; */
+}
