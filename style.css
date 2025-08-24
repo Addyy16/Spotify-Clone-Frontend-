@@ -23,6 +23,8 @@ body{
     flex: 1;
     border-radius: 1rem;
     margin: 2px;
+    padding: 0 1.5rem 0 1.5rem;
+    overflow: auto;
 }
 
 .media-player{
@@ -66,7 +68,7 @@ a{
 }
 
 .nav-option i{
-    /* font-size: 1.25rem; */
+    font-size: 1.25rem;
 }
 
 .library{
@@ -141,6 +143,7 @@ a{
     font-weight: 800;
     font-size: 0.8rem;
     height: 2rem;
+    cursor: pointer;
 }
 
 .box1 .badge{
@@ -157,8 +160,8 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color: #121212;
-    border-radius: 1rem;
-
+    /* border-radius: 1rem; */
+    z-index: 10;
     padding: 0.8rem 0 0.8rem 0;
 }
 
@@ -210,3 +213,52 @@ a{
         display: none;
     }
 }
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #232323;
+    width: 180px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.cards h2{
+    cursor: pointer;
+}
+
+.card-title{
+    font-weight: 800;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.6;
+    line-height: 1.8rem;
+}
+
+.footer{
+    height: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid #fff;
+    opacity: 0.4;
+
+}
+
